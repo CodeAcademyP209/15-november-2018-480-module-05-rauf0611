@@ -1,0 +1,29 @@
+body{
+    width: 100%;
+    background: darkslategray;
+}
+
+#btnWhite{
+    background: white;
+    color: black;
+}
+#btnBlue{
+    background: blue;
+}
+#btnGray{
+    background: gray;
+}
+#btnPink{
+    background: pink;
+    color: red;
+}
+#btnYellow{
+    background: Yellow;
+    color: black;
+}
+
+button:hover{
+    transform: scale(1.3);
+    transition: 3s linear;
+}
+

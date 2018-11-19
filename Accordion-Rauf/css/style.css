@@ -1,0 +1,47 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    height: 5000px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.accordion .header{
+    padding: 20px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.accordion .header:hover,
+.accordion .header.active{
+    background-color: rgba(0, 128, 128, 0.678);
+}
+.accordion .header i{
+    float: right;
+    margin-right: 20px;
+}
+.accordion .content{
+    height: 100px;
+    background-color: tan;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: all 0.3s linear;
+}
+.accordion .header.active + .content{
+    max-height: 200px;
+    padding: 20px;
+}
